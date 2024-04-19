@@ -1,342 +1,372 @@
 _CeruleanCityRivalPreBattleText::
-	text "<RIVAL>: Yo!"
+	text "<RIVAL>: Hi,"
 	line "<PLAYER>!"
 
-	para "You're still"
-	line "struggling along"
-	cont "back here?"
+	para "Du bist also"
+	line "immer noch "
+	cont "unterwegs!"
 
-	para "I'm doing great!"
-	line "I caught a bunch"
-	cont "of strong and"
-	cont "smart #MON!"
+	para "Mir geht es"
+	line "bestens! Ich habe"
+	cont "jede Menge neue,"
+	cont "starke #MON"
+	cont "gefangen!"
 
-	para "Here, let me see"
-	line "what you caught,"
+	para "Zeig mal, was Du"
+	line "gefangen hast,"
 	cont "<PLAYER>!"
 	done
 
 _CeruleanCityRivalDefeatedText::
-	text "Hey!"
-	line "Take it easy!"
-	cont "You won already!"
+	text "Hey, "
+	line "schon gut! Du"
+	cont "hast gewonnen!"
 	prompt
 
 _CeruleanCityRivalVictoryText::
-	text "Heh!"
-	line "You're no match"
-	cont "for my genius!"
+	text "Ha!"
+	line "Meiner Genialität"
+	cont "kannst Du nichts"
+	cont "entgegensetzen!"
 	prompt
 
 _CeruleanCityRivalIWentToBillsText::
-	text "<RIVAL>: Hey,"
-	line "guess what?"
+	text "<RIVAL>: Soll"
+	line "ich Dir was"
+	cont "verraten?"
 
-	para "I went to BILL's"
-	line "and got him to"
-	cont "show me his rare"
-	cont "#MON!"
+	para "Ich war bei BILL"
+	line "und habe mir"
+	cont "seine seltenen"
+	cont "#MON"
+	cont "zeigen lassen!"
 
-	para "That added a lot"
-	line "of pages to my"
-	cont "#DEX!"
+	para "Das hat mir"
+	line "einige Einträge"
+	cont "in meinem #DEX"
+	cont "gebracht!"
 
-	para "After all, BILL's"
-	line "world famous as a"
-	cont "#MANIAC!"
+	para "BILL ist weltweit"
+	line "als #MANIAC"
+	cont "bekannt!"
 
-	para "He invented the"
-	line "#MON Storage"
-	cont "System on PC!"
+	para "Er hat das "
+	line "#MON- "
+	cont "Lagersystem für"
+	cont "den PC"
+	cont "entwickelt!"
 
-	para "Since you're using"
-	line "his system, go"
-	cont "thank him!"
+	para "Du kannst Dich"
+	line "bei ihm dafür"
+	cont "bedanken!"
 
-	para "Well, I better"
-	line "get rolling!"
-	cont "Smell ya later!"
+	para "Naja, ich hau ab!"
+	line "Mach's mal gut!"
 	done
 
 _CeruleanCityRocketText::
-	text "Hey! Stay out!"
-	line "It's not your"
-	cont "yard! Huh? Me?"
+	text "He! Bleib"
+	line "draußen! Du hast"
+	cont "hier nichts zu"
+	cont "suchen! Was ich"
+	cont "hier tue?"
 
-	para "I'm an innocent"
-	line "bystander! Don't"
-	cont "you believe me?"
+	para "Ich bin nur ein"
+	line "unschuldiger"
+	cont "Passant! Was?"
+	cont "Glaubst Du mir"
+	cont "etwa nicht?"
 	done
 
 _CeruleanCityRocketReceivedTM28Text::
-	text "<PLAYER> recovered"
-	line "@"
-	text_ram wStringBuffer
-	text "!@"
+	text "<PLAYER> erhält"
+	line "TM28!@"
 	text_end
 
 _CeruleanCityRocketIBetterGetMovingText::
 	text_start
 
-	para "I better get"
-	line "moving! Bye!@"
+	para "Ich gehe wohl"
+	line "besser! Tschüß!@"
 	text_end
 
 _CeruleanCityRocketTM28NoRoomText::
-	text "Make room for"
-	line "this!"
+	text "Mache Platz für"
+	line "dieses coole"
+	cont "Item!"
 
-	para "I can't run until"
-	line "I give it to you!"
+	para "Ich kann erst"
+	line "gehen, wenn ich"
+	cont "es Dir gegeben"
+	cont "habe!"
 	done
 
 _CeruleanCityRocketIGiveUpText::
-	text "Stop!"
-	line "I give up! I'll"
-	cont "leave quietly!"
+	text "Ist gut!"
+	line "Ich gebe auf!"
+	cont "Ich verschwinde!"
 	prompt
 
 _CeruleanCityRocketIllReturnTheTMText::
-	text "OK! I'll return"
-	line "the TM I stole!"
+	text "OK! Ich gebe die"
+	line "gestohlene TM"
+	cont "zurück!"
 	prompt
 
 _CeruleanCityCooltrainerMText::
-	text "You're a trainer"
-	line "too? Collecting,"
-	cont "fighting, it's a"
-	cont "tough life."
+	text "Du bist auch ein"
+	line "Trainer? Zu"
+	cont "sammeln und zu"
+	cont "kämpfen ist nicht"
+	cont "immer so leicht!"
 	done
 
 _CeruleanCitySuperNerd1Text::
-	text "That bush in"
-	line "front of the shop"
-	cont "is in the way."
+	text "Der Busch vor dem"
+	line "Laden steht im"
+	cont "Weg!"
 
-	para "There might be a"
-	line "way around."
+	para "Vielleicht gibt es"
+	line "einen anderen"
+	cont "Weg!?"
 	done
 
 _CeruleanCitySuperNerd1_AfterTreeDelete::
-	text "Some crazy guy"
-	line "with sunglasses"
-	cont "flew in like a"
-	cont "whirlwind!"
-	para "Then his snorlax"
-	line "straight up just"
-	cont "uprooted the tree"
-	cont "that was in front"
-	cont "of the shop!"
-	para "Then they left as"
-	line "quickly as they"
-	cont "arrived!"
-	para "What a sight to"
-	line "behold!"
+	text "Ein verrückter"
+	line "Typ mit Sonnen-"
+	cont "brille flog"
+	cont "hier durch wie"
+	cont "ein Wirbelwind!"
+	para "Dann hat sein"
+	line "Relaxo einfach"
+	cont "diesen Baum, der"
+	cont "vor dem Laden"
+	cont "stand entwurzelt!"
+	para "Sie verschwanden"
+	line "so schnell wie"
+	cont "sie kamen!"
+	para "Was ein Anblick!"
 	done
 
 _CeruleanCitySuperNerd2Text::
-	text "You're making an"
-	line "encyclopedia on"
-	cont "#MON? That"
-	cont "sounds amusing."
+	text "Du erstellst eine"
+	line "Enzyklopädie der"
+	cont "#MON? Das"
+	cont "klingt lustig!"
 	done
 
 _CeruleanCityGuardText::
-	text "The people here"
-	line "were robbed."
+	text "Die Leute hier"
+	line "wurden beraubt."
 
-	para "It's obvious that"
-	line "TEAM ROCKET is"
-	cont "behind this most"
-	cont "heinous crime!"
+	para "Das TEAM ROCKET"
+	line "steckt hinter den"
+	cont "abscheulichen"
+	cont "Verbrechen!"
 
-	para "Even our POLICE"
-	line "force has trouble"
-	cont "with the ROCKETs!"
+	para "Sogar die POLIZEI"
+	line "ist gegen das"
+	cont "TEAM ROCKET"
+	cont "machtlos!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroUseSonicboomText::
-	text "OK! SLOWBRO!"
-	line "Use SONICBOOM!"
-	cont "Come on, SLOWBRO"
-	cont "pay attention!"
+	text "OK! LAHMUS!"
+	line "Setze ULTRASCHALL"
+	cont "ein! Los, mach"
+	cont "schon, LAHMUS!"
 	done
 
 _CeruleanCityCooltrainerF1SlowbroPunchText::
-	text "SLOWBRO punch!"
-	line "No! You blew it"
-	cont "again!"
+	text "LAHMUS, schlage"
+	line "zu! Oh nein!"
+	cont "Wieder nicht..."
 	done
 
 _CeruleanCityCooltrainerF1SlowbroWithdrawText::
-	text "SLOWBRO, WITHDRAW!"
-	line "No! That's wrong!"
+	text "LAHMUS, ZURÜCK!"
+	line "Nein, nicht!!!"
 
-	para "It's so hard to"
-	line "control #MON!"
+	para "Es ist schwer,"
+	line "ein #MON"
+	cont "zu kontrollieren!"
 
-	para "Your #MON's"
-	line "obedience depends"
-	cont "on your abilities"
-	cont "as a trainer!"
+	para "Ob Dein #MON"
+	line "gehorcht,  hängt"
+	cont "von Deinen"
+	cont "Fähigkeiten als"
+	cont "Trainer ab!"
 	done
 
 _CeruleanCitySlowbroTookASnoozeText::
-	text "SLOWBRO took a"
-	line "snooze..."
+	text "LAHMUS macht"
+	line "ein Nickerchen..."
 	done
 
 _CeruleanCitySlowbroIsLoafingAroundText::
-	text "SLOWBRO is"
-	line "loafing around..."
+	text "LAHMUS bummelt"
+	line "herum..."
 	done
 
 _CeruleanCitySlowbroTurnedAwayText::
-	text "SLOWBRO turned"
-	line "away..."
+	text "LAHMUS wendet"
+	line "sich ab..."
 	done
 
 _CeruleanCitySlowbroIgnoredOrdersText::
-	text "SLOWBRO"
-	line "ignored orders..."
+	text "LAHMUS ignoriert"
+	line "die Befehle..."
 	done
 
 _CeruleanCityCooltrainerF2Text::
-	text "I want a bright"
-	line "red BICYCLE!"
+	text "Ich hätte gern"
+	line "ein rotes"
+	cont "FAHRRAD!"
 
-	para "I'll keep it at"
-	line "home, so it won't"
-	cont "get dirty!"
+	para "Aber ich würde"
+	line "nicht damit"
+	cont "fahren, damit es"
+	cont "nicht schmutzig"
+	cont "wird!"
 	done
 
 _CeruleanCitySuperNerd3Text::
-	text "This is CERULEAN"
-	line "CAVE! Horribly"
-	cont "strong #MON"
-	cont "live in there!"
+	text "Die AZURIA"
+	line "HÖHLE! Dort leben"
+	cont "extrem starke"
+	cont "#MON!"
 
-	para "The #MON LEAGUE"
-	line "champion is the"
-	cont "only person who"
-	cont "is allowed in!"
+	para "Nur PKMN-LIGA-"
+	line "Champions ist der"
+	cont "Zutritt erlaubt!"
 	done
 
 _CeruleanCitySignText::
-	text "CERULEAN CITY"
-	para "A Mysterious"
-	line "Blue Aura"
-	cont "Surrounds It"
+	text "AZURIA CITY"
+	line "Eine mysteriöse"
+	cont "blaue Aura"
+	cont "umgibt die Stadt!"
 	done
 
 _CeruleanCityTrainerTipsText::
-	text "TRAINER TIPS"
+	text "TIPS FÜR TRAINER"
 
-	para "Pressing B Button"
-	line "during evolution"
-	cont "cancels the whole"
-	cont "process."
+	para "Drückt man den"
+	line "B-Knopf während"
+	cont "der Entwicklung"
+	cont "eines #MON, so"
+	cont "wird der Prozess"
+	cont "abgebrochen!"
 	done
 
 _CeruleanCityBikeShopSign::
-	text "Grass and caves"
-	line "handled easily!"
-	cont "BIKE SHOP"
+	text "FAHRRADLADEN"
+	line "Fahre leicht und"
+	cont "schnell mit dem"
+	cont "Rad durch Höhlen"
+	cont "und Gras!"
 	done
 
 _CeruleanCityGymSign::
-	text "CERULEAN CITY"
-	line "#MON GYM"
-	cont "LEADER: MISTY"
+	text "AZURIA CITY"
+	line "PKMN-ARENA"
+	cont "ARENALEITERIN: "
+	cont "MISTY"
 
-	para "The Tomboyish"
-	line "Mermaid!"
+	para "Die gruselige"
+	line "Arenaleiterin!"
 	done
 
+
 _OakBattleStartText::
-	text "Hello, <PLAYER>!"
+	text "Hallo, <PLAYER>!"
 
-	para "How is your"
-	line "POKéDEX coming"
-	cont "along?"
+	para "Wie läufts mit"
+	line "deinem POKéDEX?"
 
-	para "What am I doing"
-	line "here?"
+	para "Was ich hier"
+	line "mache?"
 
-	para "Training, of"
-	line "course!"
+	para "Trainieren,"
+	line "natürlich!"
 
-	para "I've come here"
-	line "once a week to"
-	cont "train since I was"
-	cont "your age!"
+	para "Ich komme einmal"
+	line "die Woche zum"
+	cont "Trainieren her"
+	cont "seit ich in"
+	cont "deinem Alter"
+	cont "war!"
 
-	para "About that third"
-	line "starter #MON:"
+	para "Zum drittek"
+	line "Start-#MON:"
 
-	para "I've been raising"
-	line "it since you and"
-	cont "<RIVAL> left."
+	para "Ich ziehe es"
+	line "groß seit du und"
+	cont "<RIVAL> los-"
+	cont "gezogen seid!"
 
-	para "It's grown into"
-	line "quite a wonderful"
-	cont "battler!"
+	para "Es ist zu einem"
+	line "wundervollen"
+	cont "Kämpfer geworden!"
 
-	para "I'll show you"
-	line "how we battled"
-	cont "#MON back in"
-	cont "my day!"
+	para "Ich zeige dir,"
+	line "wie wir früher"
+	cont "#MON-Kämpfe"
+	cont "ausgetragen"
+	cont "haben!"
 	done
 
 _OakBattleWinText::
-	text "R-"
-	line "Remarkable!"
+	text "Be-"
+	line "Beachtlich!"
 	prompt
 
 _OakBattleLoseText::
-	text "Looks"
-	line "like I've still"
-	cont "got it!"
+	text "Sieht aus als"
+	line "ob ich es immer"
+	cont "noch drauf hab!"
 	prompt
 
 _OakBeatenText::
-	text "A trainer's job"
-	line "is never truly"
-	cont "done!"
+	text "Der Job eines"
+	line "Trainers ist"
+	cont "niew vorbei!"
 
-	para "Both you and your"
-	line "#MON should"
-	cont "always keep"
-	cont "aiming to"
-	cont "improve!"
+	para "Du und dein"
+	line "#MON solltet"
+	cont "immer versuchen"
+	cont "euch zu"
+	cont "verbessern!"
 
-	para "Come train with"
-	line "me sometime."
+	para "Komm gerne zum"
+	line "Trainieren"
+	cont "vorbei!"
 
-	para "I've got some"
-	line "great stories to"
-	cont "tell!"
+	para "Ich habe ein"
+	line "paare tolle"
+	cont "Geschichten zu"
+	cont "erzählen!"
 	done
 
 _OakFirstLoseText::
-	text "Great battle!"
-	para "As expected of"
-	line "the CHAMPION!"
-	para "I feel like I"
-	line "should reward"
-	cont "you somehow."
-	para "Ah, how about"
-	line "this?"
-	para "Take this note"
-	line "to the lab at"
-	cont "CINNABAR ISLAND."
-	para "My colleague"
-	line "works there!"
-	para "He'll know what"
-	line "to do!"
+	text "Toller Kampf!"
+	para "Wie vom CHAMPION"
+	line "zu erwarten war!"
+	para "Ich denke ich"
+	line "sollte dich"
+	cont "belohnen."
+	para "Ah, wie wärs"
+	line "damit?"
+	para "Nimm diese Notiz"
+	line "mit ins Labor der"
+	cont "ZINNOBERINSEL."
+	para "Mein Kollege"
+	line "arbeitet dort!"
+	para "Er weiß was"
+	line "zutun ist!"
 	para "..."
 	para "..."
 	para "..."
-	para "PROF.OAK wrote"
-	line "a note for you!@"
+	para "PROF.EICH gibt"
+	line "dir eine Notiz!@"
 	text_end

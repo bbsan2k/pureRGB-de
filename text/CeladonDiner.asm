@@ -1,64 +1,72 @@
 _CeladonDinerCookText::
-	text "Hi!"
+	text "Hallo!"
 
-	para "We're taking a"
-	line "break now."
+	para "Wir machen gerade"
+	line "eine Pause."
 	done
 
 _CeladonDinerMiddleAgedWomanText::
-	text "My #MON are"
-	line "weak, so I often"
-	cont "have to go to the"
-	cont "DRUG STORE."
+	text "Meine #MON"
+	line "sind ziemlich"
+	cont "schwach, deshalb"
+	cont "gehe ich oft zur"
+	cont "DROGERIE."
 	done
 
 _CeladonDinerMiddleAgedManText::
-	text "Psst! There's a"
-	line "basement under"
-	cont "the GAME CORNER."
+	text "Pst! Unter der"
+	line "SPIELHALLE"
+	cont "befindet sich ein"
+	cont "Keller!"
 	done
 
 _CeladonDinerFisherText::
-	text "Munch..."
+	text "Mampf..."
 
-	para "The man at that"
-	line "table lost it all"
-	cont "at the slots."
+	para "Der Mann dort"
+	line "drüben am Tisch"
+	cont "hat Haus und Hof"
+	cont "verzockt."
 	done
 
 _CeladonDinerCoinCaseGuyImFlatOutBustedText::
-	text "Go ahead! Laugh!"
+	text "Ja, lach mich"
+	line "ruhig aus!"
 
-	para "I'm flat out"
-	line "busted!"
+	para "Ich bin pleite!"
 
-	para "No more slots for"
-	line "me! I'm going"
-	cont "straight!"
+	para "Jetzt ist Schluß"
+	line "damit! Ich werde"
+	cont "niemals wieder"
+	cont "zocken!"
 
-	para "Here! I won't be"
-	line "needing this any-"
-	cont "more!"
+	para "Hier, das kann"
+	line "ich jetzt nicht"
+	cont "mehr gebrauchen!"
 	prompt
 
 _CeladonDinerCoinCaseGuyReceivedCoinCaseText::
-	text "<PLAYER> received"
-	line "a COIN CASE!@"
+	text "<PLAYER> erhält"
+	line "einen @"
+	text_ram wStringBuffer
+	text "!@"
 	text_end
-	
+
 ;_CeladonDinerCoinCaseGuyCoinCaseNoRoomText::
 ;	text "Make room for"
 ;	line "this!"
 ;	done
 
 _CeladonDinerCoinCaseGuyWinItBackText::
-	text "I always thought"
-	line "I was going to"
-	cont "win it back..."
+	text "Ich dachte immer,"
+	line "ich könnte den"
+	cont "Jackpot knacken!"
 	done
 
 _CeladonDinerOpenText::
-	text "Welcome to"
-	line "CELADON DINER!"
-	cont "Fancy a drink?"
+	text "Wilkommen im"
+	line "SAFRONIA"
+	cont "DINER!"
+	cont "Willst du was"
+	cont "trinken?"
 	done

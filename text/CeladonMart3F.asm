@@ -1,166 +1,189 @@
 _CeladonMart3FClerkTM18PreReceiveText::
-	text "Oh, hi! I finally"
-	line "finished #MON!"
+	text "Hallo! Ich habe"
+	line "kürzlich #MON"
+	cont "durchgespielt!"
 
-	para "Not done yet?"
-	line "This might be"
-	cont "useful!"
+	para "Du bist noch"
+	line "nicht soweit?"
+	cont "Vielleicht hilft"
+	cont "Dir das hier!"
 	prompt
 
 _CeladonMart3FClerkReceivedTM18Text::
-	text "<PLAYER> received"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wStringBuffer
 	text "!@"
 	text_end
 
 _CeladonMart3FClerkTM18ExplanationText::
-	text "TM35 is AGILITY!"
-	para "Use speed to your"
-	line "advantage!"
-	para "If you go first,"
-	line "you can control"
-	cont "what happens in"
-	cont "battle easily!"
-	para "Trust me, I know"
-	line "how things work!"
-	para "That's why I'm"
-	line "the one behind"
-	cont "this counter!"
+	text "TM35 ist"
+	line "Agilität!"
+	para "Nutze Tempo zu"
+	line "deinem Vorteil!"
+	para "So kannst du"
+	line "den Kampfverlauf"
+	cont "ganz einfach"
+	cont "kontrollieren!"
+	para "Glaub mir, ich"
+	line "weiß wie es"
+	cont "funktioniert!"
+	para "Deshalb bin ich"
+	line "hinter dieser"
+	cont "Theke!"
 	done
 
 _CeladonMart3FClerkTM18NoRoomText::
-	text "Your pack is full"
-	line "of items!"
+	text "Dein Rucksack"
+	line "ist zu voll!"
 	done
 
 _CeladonMart3FGameBoyKid1Text::
-	text "Captured #MON"
-	line "are registered"
-	cont "with an ID No."
-	cont "and OT, the name"
-	cont "of the Original"
-	cont "Trainer that"
-	cont "caught it!"
+	text "Jedes gefangene"
+	line "#MON erhält"
+	cont "eine ID-Nr. und"
+	cont "wird mit dem"
+	cont "Namen des"
+	cont "ORIGINALTRAINERS,"
+	cont "OT, registriert. "
+	cont "Der OT ist der"
+	cont "Trainer, der das"
+	cont "#MON gefangen"
+	cont "hat!"
 	done
 
 _CeladonMart3FGameBoyKid2Text::
-	text "All right!"
+	text "Cool!"
 
-	para "My buddy's going"
-	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	para "Mein Kumpel"
+	line "tauscht sein"
+	cont "KANGAMA gegen"
+	cont "mein GEOROK!"
 	done
 
 _CeladonMart3FGameBoyKid3Text::
-	text "Come on GRAVELER!"
+	text "Komm, GEOROK!"
 
-	para "I love GRAVELER!"
-	line "I collect them!"
+	para "Ich bin"
+	line "GEOROK-Sammler!"
 
-	para "Huh?"
+	para "Nanu?"
 
-	para "GRAVELER turned"
-	line "into a different"
-	cont "#MON!"
+	para "GEOROK hat sich"
+	line "zu einem anderen"
+	cont "#MON"
+	cont "entwickelt!"
 	done
 
 _CeladonMart3FLittleBoyText::
-	text "You can identify"
-	line "#MON you got"
-	cont "in trades by"
-	cont "their ID Numbers!"
+	text "Anhand ihrer"
+	line "ID-Nr. kannst Du"
+	cont "#MON, die Du"
+	cont "bei einem Tausch"
+	cont "erhalten hast,"
+	cont "identifizieren!"
 	done
 
 _CeladonMart3FSNESText::
-	text "It's an SNES!"
+	text "Das ist ein"
+	line "SUPER NINTENDO!"
 	done
 
 _CeladonMart3FRPGText::
-	text "An RPG! There's"
-	line "no time for that!"
+	text "Ein Rollenspiel!"
+	line "Ich habe keine"
+	cont "Zeit! Schade!"
 	done
 
 _CeladonMart3FSportsGameText::
-	text "A sports game!"
-	line "Dad'll like that!"
+	text "Ein Rennspiel!"
+	line "Das würde meinem"
+	cont "Vater gefallen!"
 	done
 
 _CeladonMart3FPuzzleGameText::
-	text "A puzzle game!"
-	line "Looks addictive!"
+	text "Ein Puzzle-Spiel!"
+	line "Es ist bestimmt"
+	cont "fesselnd!"
 	done
 
 _CeladonMart3FFightingGameText::
-	text "A fighting game!"
-	line "Looks tough!"
+	text "Ein Kampfsport-"
+	line "Spiel! Aufregend!"
 	done
 
 _CeladonMart3FCurrentFloorSignText::
-	text "3F: TV GAME SHOP"
+	text "S2: VIDEOSPIELE-"
+	line "SHOP"
 	done
 
 _CeladonMart3FPokemonPosterText::
-	text "Red, Blue, and"
-	line "Green!"
-	cont "All are #MON!"
+	text "Rot, Blau und"
+	line "Grün!"
+	cont "Alle #MON!"
 	done
 
 _CeladonMartTMKidFlavor::
-	text "My dad got kicked"
-	line "out of CELADON"
-	cont "GYM! How funny is"
-	cont "that!"
+	text "Mein Vater wurde"
+	line "aus der"
+	cont "PRISMANIA Arena"
+	cont "geworfen! Wie"
+	cont "lustig!"
 
-	para "They said men"
-	line "aren't allowed to"
-	cont "loiter inside!"
+	para "Sie sagten,"
+	line "Männer dürfen"
+	cont "nicht herum-"
+	cont "laufen!"
 
-	para "Now he's goofing"
-	line "off at the GAME"
-	cont "CORNER."
+	para "Jetzt ist er"
+	line "im CASINO."
 
-	para "For once the"
-	line "MART here has TMs"
-	cont "so I'm not selling"
-	cont "any of my own!"
+	para "Ausnahmsweise"
+	line "hat der MARKT"
+	cont "TMs, also verkaufe"
+	cont "ich keine!"
 
-	para "I think I'll use"
-	line "some of the cash"
-	cont "I made selling"
-	cont "TMs to buy a"
-	cont "GAME BOY COLOR."
+	para "Ich glaube, ich"
+	line "werde mir von"
+	cont "meinem Geld, das"
+	cont "ich bisher"
+	cont "verdient habe"
+	cont "einen GAME BOY"
+	cont "COLOR kaufen."
 	
-	para "I heard that"
-	line "WARIO LAND 3 is"
-	cont "the best game!"
+	para "Ich hörte,"
+	line "WARIO LAND 3 ist"
+	cont "das beste Spiel!"
 	
-	para "Catch you later!"
+	para "Bis später!"
 	done
 
 _CeladonMart3FPartyGameText::
-	text "A TV ad for a new"
-	line "party game!"
-	para "That'll be fun"
-	line "with friends!"
-	para "Bunch of kids are"
-	line "mashing buttons"
-	cont "and making crazy"
-	cont "faces."
+	text "Eine Werbung für"
+	line "ein neues Party-"
+	cont "Spiel!"
+	para "Das wird lustig"
+	line "mit Freunden!"
+	para "Ein paar Kinder"
+	line "drücken Tasten"
+	cont "und machen"
+	cont "Grimassen."
 	done
 
 _CeladonMart3FPlatformerGameText::
-	text "A TV ad for a new"
-	line "platformer game!"
-	para "Wow! It's in"
-	line "stunning 3D!"
-	para "The players are"
-	line "making MARIO jump"
-	cont "all over."
-	para "Whoa!"
-	para "MARIO came out"
-	line "of their TV!"
-	para "Now he raided"
-	line "their fridge!"
+	text "Eine Werbung für"
+	line "ein Jump'n'Run!"
+	para "Wow! Es ist in"
+	line "3D!"
+	para "Die Spieler"
+	line "lassen MARIO"
+	cont "überall hin"
+	cont "hüpfen!"
+	para "Boah!"
+	para "MARIO kam"
+	line "gerade aus dem"
+	cont "Fernseher!"
+	para "Jetzt plündert"
+	line "er ihren"
+	cont "Kühlschrank!"
 	done

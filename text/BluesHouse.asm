@@ -1,50 +1,54 @@
 _BluesHouseDaisyRivalAtLabText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "Hallo <PLAYER>!"
+	line "<RIVAL> wartet"
+	cont "in Opas Labor."
 	done
 
 _BluesHouseDaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "Opa hat Dich um"
+	line "einen Botengang"
+	cont "gebeten? Hier,"
+	cont "das wird Dir"
+	cont "weiterhelfen!"
 	prompt
 
 _GotMapText::
-	text "<PLAYER> got a"
-	line "TOWN MAP!@"
+	text "<PLAYER> erhält"
+	line "eine @"
+	text_ram wStringBuffer
+	text "!@"
 	text_end
 
 _MapHelpText::
-	text "Press SELECT"
-	line "when looking at"
-	cont "your POKéDEX to"
-	cont "view the TOWN"
-	cont "MAP. Easy!"
+	text "Drücke SELECT"
+	line "im POKéDEX um"
+	cont "die KARTE zu"
+	cont "öffnen!"
+	cont "Ganz einfach!"
 	done
 
 _BluesHouseDaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "Du trägst zu"
+	line "viele Dinge mit"
+	cont "Dir herum!"
 	done
 
 _BluesHouseDaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
-	para "Just press SELECT"
-	line "in the POKéDEX!"
+	text "Benutze die"
+	line "KARTE, um Deinen"
+	cont "Standort zu"
+	cont "bestimmen."
 	done
 
 _BluesHouseDaisyWalkingText::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "#MON sind"
+	line "Lebewesen! Gönne"
+	cont "ihnen eine Pause,"
+	cont "wenn sie müde"
+	cont "sind!"
 	done
 
 _BluesHouseTownMapText::
-	text "It's a big map!"
-	line "This is useful!"
+	text "Eine große Karte!"
+	line "Sie ist nützlich!"
 	done
