@@ -31,7 +31,7 @@ _CeladonChannelerIntro::
 	para "Ich hörte von"
 	line "einem"
 	cont "gespenstischem"
-	cont "Computer"."
+	cont "Computer."
 	para "Hast du ihn"
 	line "gesehen?"
 	done
