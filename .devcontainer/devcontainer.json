@@ -1,0 +1,8 @@
+{
+    "image": "bensuperpc/rgbds:20221207-d8206b9",
+    "customizations": {
+        "vscode": {
+          "extensions": ["llvm-vs-code-extensions.vscode-clangd"]
+        }
+      },
+}
