@@ -1,6 +1,6 @@
 _CeruleanOldRodHouseImTheFishingGuruText::
-	text "I'm the FISHING"
-	line "GURU!@"
+	text "Ich bin der"
+	line "FISCHER GURU!@"
 	text_end
 
 _CeruleanOldRodHouseFishingIsAWayOfLifeText::
