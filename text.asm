@@ -192,8 +192,6 @@ INCLUDE "text/PokemonFanClub.asm"
 INCLUDE "text/VermilionMart.asm"
 INCLUDE "text/VermilionGym.asm"
 
-INCLUDE "text/PokemonTowerB1F.asm"
-
 
 SECTION "Text 8", ROMX
 
@@ -224,8 +222,6 @@ INCLUDE "text/FuchsiaBillsGrandpasHouse.asm"
 INCLUDE "text/FuchsiaTreeDeleterHouse.asm"
 INCLUDE "text/FuchsiaPokecenter.asm"
 INCLUDE "text/WardensHouse.asm"
-INCLUDE "text/SafariZoneGate.asm"
-INCLUDE "text/FuchsiaGym.asm"
 
 SECTION "Text 9", ROMX
 
@@ -272,7 +268,6 @@ INCLUDE "data/text/text_6.asm"
 
 INCLUDE "text/CinnabarLabColorChanger.asm"
 INCLUDE "text/CeladonLaprasGuy.asm"
-INCLUDE "text/SafariZoneNewRestHouseText.asm"
 
 
 SECTION "Text 11", ROMX
@@ -288,6 +283,10 @@ SECTION "Text 12", ROMX
 INCLUDE "text/TypeGuysHouse.asm"
 INCLUDE "text/ChampArena.asm"
 INCLUDE "text/DiamondMine.asm"
+INCLUDE "text/SafariZoneNewRestHouseText.asm"
+INCLUDE "text/SafariZoneGate.asm"
+INCLUDE "text/FuchsiaGym.asm"
+INCLUDE "text/PokemonTowerB1F.asm"
 
 SECTION "Pokédex Text", ROMX
 
