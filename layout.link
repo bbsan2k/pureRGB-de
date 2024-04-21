@@ -208,6 +208,8 @@ ROMX $36
 	"Music 4"
 ROMX $37
 	"Music 5"
+ROMX $38
+	"Text 13"
 WRAM0
 	"Audio RAM"
 	org $c100

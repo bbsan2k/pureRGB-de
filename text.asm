@@ -56,7 +56,6 @@ INCLUDE "text/ChampionsRoom.asm"
 INCLUDE "text/LoreleisRoom.asm"
 INCLUDE "text/BrunosRoom.asm"
 INCLUDE "text/AgathasRoom.asm"
-INCLUDE "text/RockTunnelB1F.asm"
 
 
 SECTION "Text 3", ROMX
@@ -190,8 +189,6 @@ INCLUDE "text/NameRatersHouse.asm"
 INCLUDE "text/VermilionPokecenter.asm"
 INCLUDE "text/PokemonFanClub.asm"
 INCLUDE "text/VermilionMart.asm"
-INCLUDE "text/VermilionGym.asm"
-
 
 SECTION "Text 8", ROMX
 
@@ -246,8 +243,6 @@ INCLUDE "text/SaffronPokecenter.asm"
 INCLUDE "text/MrPsychicsHouse.asm"
 INCLUDE "text/FossilGuysHouse.asm"
 
-INCLUDE "data/text/text_4.asm"
-
 
 SECTION "Text 10", ROMX
 
@@ -280,6 +275,7 @@ INCLUDE "text/BillsGarden.asm"
 INCLUDE "text/SecretLab.asm"
 
 SECTION "Text 12", ROMX
+
 INCLUDE "text/TypeGuysHouse.asm"
 INCLUDE "text/ChampArena.asm"
 INCLUDE "text/DiamondMine.asm"
@@ -287,6 +283,13 @@ INCLUDE "text/SafariZoneNewRestHouseText.asm"
 INCLUDE "text/SafariZoneGate.asm"
 INCLUDE "text/FuchsiaGym.asm"
 INCLUDE "text/PokemonTowerB1F.asm"
+INCLUDE "text/VermilionGym.asm"
+INCLUDE "text/RockTunnelB1F.asm"
+
+SECTION "Text 13", ROMX
+
+INCLUDE "data/text/text_4.asm"
+
 
 SECTION "Pokédex Text", ROMX
 
