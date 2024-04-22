@@ -21,7 +21,7 @@ GameFreakLogoGraphicsEnd:
 TextBoxGraphics:: INCBIN "gfx/font/font_extra.2bpp"
 TextBoxGraphicsEnd::
 
-PokedexTileGraphics: INCBIN "gfx/pokedex/pokedex.2bpp"
+PokedexTileGraphics: INCBIN "gfx/pokedex/pokedex.2bpp",$10,$120
 PokedexTileGraphicsEnd:
 
 WorldMapTileGraphics: INCBIN "gfx/town_map/town_map.2bpp"

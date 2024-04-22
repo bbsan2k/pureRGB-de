@@ -759,20 +759,23 @@ ShowNextPokemonData:
 .printHeightWeight
 	inc de ; de = address of feet (height)
 	ld a, [de] ; reads feet, but a is overwritten without being used
-	hlcoord 12, 6
-	lb bc, 1, 2
+	push af
+	hlcoord 13, 6
+	lb bc, 1, 3
 	call PrintNumber ; print feet (height)
-	ld [hl], "′"
+	hlcoord 14, 6
+	pop af
+	cp $a
+	jr nc, .func_43d7
+	ld [hl], $F6
+.func_43d7
+	inc hl
+	ld a, [hli]
+	ldd [hl], a
+	ld [hl], $F2
+	inc de
 	inc de
 	inc de ; de = address of inches (height)
-	hlcoord 15, 6
-	lb bc, LEADING_ZEROES | 1, 2
-	call PrintNumber ; print inches (height)
-	ld [hl], "″"
-; now print the weight (note that weight is stored in tenths of pounds internally)
-	inc de
-	inc de
-	inc de ; de = address of upper byte of weight
 	push de
 ; put weight in big-endian order at hDexWeight
 	ld hl, hDexWeight
@@ -786,8 +789,8 @@ ShowNextPokemonData:
 	ld a, [de] ; a = lower byte of weight
 	ld [hl], a ; store lower byte of weight in [hDexWeight + 1]
 	ld de, hDexWeight
-	hlcoord 11, 8
-	lb bc, 2, 5 ; 2 bytes, 5 digits
+	hlcoord 12, 8
+	lb bc, 2, 4 ; 2 bytes, 4 digits
 	call PrintNumber ; print weight
 	hlcoord 14, 8
 	ldh a, [hDexWeight + 1]
@@ -1053,8 +1056,8 @@ ShowNextPokemonData:
 	jp ShowNextPokemonData
 
 HeightWeightText:
-	db   "HT  ?′??″"
-	next "WT   ???lb@"
+	db   "GR.  ???<M>"
+	next "GEW  ???<K><G>@"
 
 ; XXX does anything point to this?
 PokeText:
