@@ -3,7 +3,7 @@ DEF MAX_OPTIONS_PER_PAGE EQU 7
 DEF OPTION_PAGE_NUMBER EQU 1 ; must be 1 digit
 DEF HOW_MANY_MAIN_OPTIONS_PAGES EQU 4 ; must be 1 digit
 DEF NEXT_BUTTON_X_COORD EQU 1
-DEF BACK_BUTTON_X_COORD EQU 7
+DEF BACK_BUTTON_X_COORD EQU 9
 DEF PAGE_CONTROLS_Y_COORD EQU 17
 
 ; first byte = y coord
@@ -353,16 +353,16 @@ GetYCoordAndXVariable:
 	ret
 
 TextSpeedOptionText:
-	db   "TEXT SPEED"
+	db   "TEXT TEMPO"
 	next " INSTANT FAST SLOW@"
 
 BattleAnimationOptionText:
-	db   "BATTLE ANIMATION"
+	db   "KAMPFANIMATION"
 	next " ON       OFF@"
 
 BattleStyleOptionText:
-	db   "BATTLE STYLE"
-	next " SHIFT    SET@"
+	db   "KAMPFSTIL"
+	next " WECHSEL  FOLGEND@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:
