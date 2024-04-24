@@ -63,7 +63,7 @@ FrontSpriteOptionsSetCursorPositionActions:
 	dw SetCursorPositionFromFrontSpriteOptions
 
 FrontSpriteOptionsText:
-	db   "SPRITES→FRONT 1"
+	db   "SPRITES▶FRONT 1"
 	next " BULBASAUR:  RB RG"
 	next " SQUIRTLE:   RB RG"
 	next " BLASTOISE:  RB RG"
@@ -76,7 +76,7 @@ DrawChildMenuDigit:
 	add NUMBER_CHAR_OFFSET
 	hlcoord 14, PAGE_CONTROLS_Y_COORD
 	ld [hli], a
-	ld [hl], "→"
+	ld [hl], "▶"
 	ret
 
 DrawFrontSpriteOptionsMenu:

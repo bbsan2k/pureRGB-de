@@ -58,7 +58,7 @@ DrawSpriteOptionsMenu:
 	ld de, SpritesOptionText
 	call PlaceString
 	hlcoord 10, 7 
-	lb bc, $C0, 3
+	lb bc, $CD, 3
 	ld de, 1
 	jp DrawTileLineIncrement
 
@@ -127,7 +127,7 @@ SetSpriteOptionsFromCursorPositions:
 	callfar LoopRemapSpritePictureIDs ; if we did, modify the sprites in wram to have the correct IDs
 	call ReloadMapSpriteTilePatterns ; reload their tiles so they have the right sprites
 	ld de, EditPrompt ; reload the EDIT prompt tiles
-	ld hl, vChars1 tile $40
+	ld hl, vChars1 tile $4d
 	lb bc, BANK(EditPrompt), 3
 	call CopyVideoData
 	jp GBPalNormal

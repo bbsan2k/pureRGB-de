@@ -109,7 +109,7 @@ OptionMenu1Header:
 	; fall through (options display address should be after A button pointer)
 DisplayOptionMenu:
 	ld de, EditPrompt
-	ld hl, vChars1 tile $40
+	ld hl, vChars1 tile $4d
 	lb bc, BANK(EditPrompt), 3
 	call CopyVideoData
 	ld hl, OptionMenu1Header
