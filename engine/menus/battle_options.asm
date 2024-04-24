@@ -63,10 +63,10 @@ BattleOptionsSetCursorPositionActions:
 
 BattleOptionText:
 	db   "BATTLE OPTIONS"
-	next " GHST→PSY: 0× 2×"
-	next " ICE→FIRE: 1× 0.5×"
-	next " BUG→PSN:  2× 0.5×"
-	next " PSN→BUG:  2× 1×"
+	next " GST▶PSY:  0× 2×"
+	next " EIS▶FEUR: 1× 0.5×"
+	next " KFR▶GFT:  2× 0.5×"
+	next " GFT▶KFR:  2× 1×"
 	next " EXP BAR:  ON OFF"
 	next " NPC EVs:  ON OFF"
 	next " NPC PP:   ON OFF@"
