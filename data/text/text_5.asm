@@ -1,42 +1,44 @@
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
+	text "Komm jederzeit"
+	line "wieder vorbei!"
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "Wir treffen"
+	line "gerade die"
+	cont "Vorbereitungen."
+	cont "Bitte warte!"
 	done
 
 _UsedStrengthText::
 	text_ram wcd6d
-	text " used"
-	line "STRENGTH.@"
+	text_start
+	line "setzt STÄRKE ein.@"
 	text_end
 
 _CanMoveBouldersText::
 	text_ram wcd6d
-	text " can"
-	line "move boulders."
-	done
+	text " kann"
+	line "Felsen bewegen."
+	prompt
 
 _CurrentTooFastText::
-	text "The current is"
-	line "much too fast!"
+	text "Die Strömung"
+	line "ist zu stark!"
 	prompt
 
 _CyclingIsFunText::
-	text "Cycling is fun!"
-	line "Forget SURFing!"
+	text "Radfahren macht"
+	line "Spaß! Surfen"
+	cont "dagegen ist"
+	cont "nichts!"
 	prompt
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
-	line "lights the area!"
 	prompt
 
 _EscapeText::
-	text "Escape@"
+	text "Flucht@"
 	text_end
 
 _WarpText::
@@ -44,138 +46,149 @@ _WarpText::
 	text_end
 
 _ToLastPkmnCenterText::
-	text " to the last"
+	text " zum letzten"
 	line "#MON CENTER?"
 	prompt
 
 _PocketAbraFlavorText1::
 	text_ram wPocketAbraNick
 	text " "
-	line "grabbed your"
-	cont "hand quickly in"
-	cont "anticipation."
+	line "nimmt aus"
+	cont "Vorfreude deine"
+	cont "Hand."
 	prompt
 
 _PocketAbraFlavorText2::
 	text_ram wPocketAbraNick
-	text " looks"
-	line "very excited!"
+	text " ist"
+	line "sehr aufgeregt!"
 	prompt
 
 _PocketAbraFlavorText3::
 	text_ram wPocketAbraNick
-	text " was"
-	line "dozing off in"
-	cont "your bag."
+	text " hat"
+	line "in deinem"
+	cont "Rucksack gedöst."
 	prompt
 
 _PocketAbraFlavorText4::
 	text_ram wPocketAbraNick
-	text " sat"
-	line "on your shoulder"
-	cont "comfily."
+	text " setzt"
+	line "sich gemütlich"
+	cont "auf deine"
+	cont "Schulter"
 	prompt
 
 _PocketAbraFlavorText5::
 	text_ram wPocketAbraNick
 	text " "
-	line "focused with"
-	cont "all its might!"
+	line "konzentriert sich"
+	cont "mit aller Kraft!"
 	prompt
 
 _PocketAbraNo::
 	text_ram wPocketAbraNick
-	text " looks"
-	line "disappointed..."
+	text " sieht"
+	line "enttäucht aus..."
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
-	prompt
+	text "In das letzte"
+	line "PKMN-CENTER"
+	cont "zurückkehren?"
+	done
 
 _CannotUseTeleportNowText::
 	text_ram wcd6d
-	text " can't"
-	line "use TELEPORT now."
+	text " kann"
+	line "TELEPORT momentan"
+	cont "nicht einsetzen!"
 	prompt
 
 _CannotFlyHereText::
 	text_ram wcd6d
-	text " can't"
-	line "FLY here."
 	prompt
 
 _CannotDigHereText::
 	text_ram wcd6d
-	text " can't"
-	line "DIG here."
+	text "kann hier nicht"
+	line "GRABEN."
 	prompt
 
 _CannotDigWhileSurfingText::
-	text "Can't DIG while"
-	line "SURFing on water!"
+	text "Kann beim SURFen"
+	line "nicht GRABEN!"
 	prompt
 
 _NoWhereToDigDown::
-	text "You'll hit water"
-	line "if you dig here."
-	para "Find some"
-	line "stabler ground."
+	text "Du wirst Wasser"
+	line "treffen wenn du"
+	cont "hier gräbst."
+	para "Finde einen"
+	line "stabileren"
+	cont "Untergrund!"
 	prompt
 
 _NotHealthyEnoughText::
-	text "Not healthy"
-	line "enough."
+	text "Nicht gesund"
+	line "genug."
 	prompt
 
 _AlreadyBrightText::
-	text "It's already"
-	line "bright enough."
+	text "Es ist schon"
+	line "hell genug."
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
-	line "is required."
+	text "Nein! Hier"
+	line "benötigt man"
+	cont "einen neuen"
+	cont "ORDEN!"
 	prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
+	text "Du kannst hier"
+	line "keine Items"
+	cont "einsetzen!"
 	prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
+	text "Du kannst hier"
+	line "nicht absteigen!"
 	prompt
 
 _GotMonText::
-	text "<PLAYER> got"
+	text "<PLAYER> erhält"
 	line "@"
 	text_ram wcd6d
 	text "!@"
 	text_end
 
 _SentToBoxText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Es ist nicht"
+	line "genug Platz für"
+	cont "das #MON!"
 	cont "@"
 	text_ram wBoxMonNicks
-	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	text " wurde"
+	cont "mittels PC in"
+	cont "#MON-BOX @"
 	text_ram wStringBuffer
-	text " on PC!"
-	prompt
+	text_start
+	cont "transferiert!"
+	done
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
+	text "Es ist kein Platz"
+	line "für das #MON!"
 
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
+	para "Die #MON-BOX"
+	line "ist voll und kann"
+	cont "keine weiteren"
+	cont "#MON"
+	cont "aufnehmen!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Wechsle in einem"
+	line "#MON-CENTER"
+	cont "die BOX!"
 	done
