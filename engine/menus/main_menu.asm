@@ -394,7 +394,7 @@ DisplayContinueGameInfo:
 	hlcoord 5, 9
 	ld de, SaveScreenInfoText
 	call PlaceString
-	hlcoord 12, 9
+	hlcoord 13, 9
 	ld de, wPlayerName
 	call PlaceString
 	hlcoord 17, 11
@@ -464,8 +464,8 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "SPIELER "
-	next "ORDER    "
+	db   "SPIELER  "
+	next "ORDEN    "
 	next "#DEX    "
 	next "ZEIT@"
 

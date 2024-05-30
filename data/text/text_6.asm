@@ -302,9 +302,9 @@ _TopSecretKeyText::
 	para "Was öffnet er?"
 	para "Vielleicht eine"
 	line "Tür auf der"
-	cont "ZINNOBERINSEL?
+	cont "ZINNOBERINSEL?"
 	para "Darauf steht"
-	line "-B2F-."
+	line "-UG2-."
 	prompt
 
 _ItemUseFossilText::
