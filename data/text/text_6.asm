@@ -1,97 +1,100 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Es weicht dem"
+	line "BALL aus!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Dieses #MON"
+	line "läßt sich nicht"
+	cont "fangen!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
-	line "#MON!"
+	text "Du hast das"
+	line "#MON verfehlt!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Mist! Das #MON"
+	line "hat sich befreit!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught!"
+	text "Fast hätte es"
+	line "geklappt! "
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Verflixt! Es"
+	line "hätte beinahe"
+	cont "geklappt!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
+	text "Wunderbar!"
 	line "@"
 	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text " wurde"
+	cont "gefangen!@"
 	text_end
 
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "BILL's PC!"
+	text " wurde"
+	line "auf BILLS PC"
+	cont "übertragen!"
 	prompt
 
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	text " wurde"
+	line "auf den GAST-PC"
+	cont "übertragen!"
 	prompt
 
 _NoBoxSlotsLeftText::
 	text "BOX @"
 	text_ram wBoxNumString
-	text" is now"
-	line "full."
-	para "Time to change"
-	line "boxes!@"
+	text" ist jetzt"
+	line "voll."
+	para "Zeit die BOX"
+	line "zu wechseln!@"
 	text_end
 
 _BoxSlotsLeftText::
 	text_ram w2CharStringBuffer
-	text " slots left in"
+	text " Plätze übrig in"
 	line "BOX @"
 	text_ram wBoxNumString
 	text ".@"
 	text_end
 
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
-	cont "@"
+	text "Für @"
 	text_ram wEnemyMonNick
-	text "!@"
+	text_start
+	line "wird ein neuer"
+	cont "Eintrag im"
+	cont "#DEX angelegt!@"
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
-	line "@"
+	text "<PLAYER> steigt"
+	line "auf @"
 	text_ram wcd6d
 	text "!"
 	prompt
 
 _AlreadySurfingText::
-	text "You're already"
-	line "surfing."
+	text "Du surfst"
+	line "bereits."
 	prompt
 
 _ApexChipPutOnPokeballText::
-	text "You installed the"
-	line "APEX CHIP on"
+	text "Du installierst"
+	line "den APEX CHIP auf"
 	para "@"
 	text_ram wcd6d
-	text "'s"
-	line "Poké Ball.@"
+	text "s"
+	line "Pokéball.@"
 	text_asm
 	ld a, SFX_SWITCH
 	rst _PlaySound
@@ -107,231 +110,258 @@ _ApexChipPutOnPokeballText::
 
 _ApexChipDVsMaxedText::
 	text_ram wcd6d
-	text "'s"
-	line "potential is"
-	cont "maximized!"
-	para "DVs are at max!"
+	text "s"
+	line "Potential ist"
+	cont "maximiert!"
+	para "DVs sind auf max!"
 	prompt
 
 _ApexChipAlreadyUsedText::
-	text "There's already"
-	line "an APEX CHIP"
-	para "installed on"
+	text "Du hast bereits"
+	line "einen APEX CHIP"
+	para "installiert auf"
 	line "@"
 	text_ram wcd6d
-	text "'s"
-	cont "Poké Ball."
+	text "s"
+	cont "PokéBall."
 	prompt
 
 _BoosterChipInstalledText::
-	text "You plugged the"
-	line "BOOSTER CHIP into"
-	cont "your POKéBALL"
-	cont "belt."
+	text "Du steckst den"
+	line "BOOSTER CHIP in"
+	cont "deinen POKéBALL"
+	cont "Gürtel."
 
-	para "All #MON will"
-	line "gain boosted EXP!@"
+	para "Alle #MON werden"
+	line "geboostete EXP"
+	cont "bekommen!@"
 	text_end
 
 _VitaminStatRoseText::
 	text_ram wcd6d
-	text "'s"
+	text "s"
 	line "@"
 	text_ram wStringBuffer
-	text " rose."
+	text " ist"
+	cont "gestiegen."
 	prompt
 
 _VitaminNoEffectText::
-	text "Vitamins can't"
-	line "raise this stat"
-	cont "further."
+	text "Das würde keinen"
+	line "Effekt haben."
 	prompt
 
 _RareCandyNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Das würde keinen"
+	line "Effekt haben."
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> wirft"
+	line "einen KÖDER aus."
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> hat "
+	line "einen STEIN"
+	cont "geworfen."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "Die #FLÖTE"
+	line "wurde gespielt!"
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Eine schöne"
+	line "Melodie!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Alle schlafenden"
+	line "#MON sind"
+	cont "aufgewacht."
 	prompt
 
 _PlayedFluteHadEffectText::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> spielt"
+	line "die #FLÖTE.@"
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
+	text "Münzen"
 	line "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text " "
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "Oh! Der DETEKTOR"
+	line "zeigt an, daß ein"
+	cont "Item in der Nähe"
+	cont "liegt!"
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Nichts! Der"
+	line "DETEKTOR schlägt"
+	cont "nicht an."
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Für welche"
+	line "Attacke sollen"
+	cont "die AP erhöht"
+	cont "werden?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Für welche"
+	line "Attacke sollen"
+	cont "die AP erneuert"
+	cont "werden?"
 	done
 
 _PPMaxedOutText::
+	text "Die AP von"
+	line "@"
 	text_ram wStringBuffer
-	text "'s PP"
-	line "has already been"
-	cont "maxed out."
+	text " sind"
+	cont "auf dem Maximum!"
 	prompt
 
 _PPIncreasedText::
+	text "Die AP von"
+	line "@"
 	text_ram wStringBuffer
-	text "'s max"
-	line "PP increased."
+	text_start
+	cont "sind gestiegen."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "Die AP wurden"
+	line "aufgefüllt!"
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "TM aktiviert!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "VM aktiviert!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "Sie enthält"
 	line "@"
 	text_ram wStringBuffer
 	text "!"
 
-	para "Teach @"
+	para "@"
 	text_ram wStringBuffer
 	text_start
-	line "to a #MON?"
+	line "einem #MON"
+	cont "beibringen?"
 	done
 
 _MonCannotLearnMachineMoveText::
-	text_ram wcd6d
-	text " is not"
-	line "compatible with"
-	cont "@"
 	text_ram wStringBuffer
+	text_start
+	line "paßt nicht zu"
+	cont "@"
+	text_ram wcd6d
 	text "."
 
-	para "It can't learn"
+	para "Es kann"
 	line "@"
 	text_ram wStringBuffer
-	text "."
+	text_start
+	cont "nicht lernen."
 	prompt
 
 _ItemUseNotTimeText::
-	text "OAK: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that!"
+	text "EICH: <PLAYER>!"
+	line "Es ist noch nicht"
+	cont "an der Zeit, dies"
+	cont "zu benutzen!"
 	prompt
 
 _ItemUseValuableText::
-	text "Looks valuable!"
-	para "Selling it would"
-	line "be a good idea."
+	text "Sieht wertvoll"
+	line "aus!"
+	para "Es wäre eine"
+	line "gute Idee es"
+	cont "zu verkaufen!"
 	prompt
 
 _TopSecretKeyText::
-	text "This key looks"
-	line "similar to the"
-	cont "SECRET KEY."
-	para "It's a lot more"
-	line "worn though."
-	para "What's it open?"
-	para "Maybe a door on"
-	line "CINNABAR ISLAND?"
-	para "It says -B2F-"
-	line "on it."
+	text "Dieser Schlüssel"
+	line "sieht dem "
+	cont "?-ÖFFNER ähnlich."
+	para "Er sieht aber"
+	line "viel benutzter"
+	cont "aus."
+	para "Was öffnet er?"
+	para "Vielleicht eine"
+	line "Tür auf der"
+	cont "ZINNOBERINSEL?
+	para "Darauf steht"
+	line "-B2F-."
 	prompt
 
 _ItemUseFossilText::
-	text "This fossil is"
-	line "fun to admire!"
-	para "Maybe putting it"
-	line "in the PC until"
-	cont "finding a use"
-	cont "for it is best."
+	text "Es macht Spaß"
+	line "dieses Fossil zu"
+	cont "bewundern."
+	para "Vielleicht sollte"
+	line "ich es auf den"
+	cont "PC transferieren"
+	cont "bis ich einen"
+	cont "anderen Nutzen"
+	cont "gefunden habe!"
 	prompt
 
 _ItemUseInBattleText::
-	text "This can only"
-	line "be used during"
-	cont "a #MON battle."
+	text "Dies kann nur"
+	line "während eines #MON"
+	cont "Kampfes benutzt"
+	cont "werden."
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "Dies gehört Dir"
+	line "nicht!"
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Das hätte keinen"
+	line "Effekt!"
 	prompt
 
 _ThrowBallAtTrainerMonText1::
-	text "The trainer"
-	line "blocked the BALL!"
+	text "Der Trainer hat"
+	line "den BALL"
+	cont "abgeblockt!"
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Sei kein Dieb!"
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "Das Radfahren ist"
+	next "hier verboten!"
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
-	line "@"
+	text "Hier kann nicht"
+	line "auf @"
 	text_ram wcd6d
-	text " here!"
+	text_start
+	cont "gesurft werden!"
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "Die #MON-BOX"
+	line "ist voll! Das"
+	cont "Item kann nicht"
+	cont "benutzt werden!"
 	prompt

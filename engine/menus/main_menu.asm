@@ -464,7 +464,7 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "SPIELER"
+	db   "SPIELER "
 	next "ORDER    "
 	next "#DEX    "
 	next "ZEIT@"
